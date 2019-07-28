@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/mark-hoffmann/tiling_utils.svg?style=svg)](https://circleci.com/gh/mark-hoffmann/tiling_utils)
+
 # Tiling Utils
 
 This package was written to help deal with large images when building image segmentation models. This is very common in domains such as satelite imagery, electronic part dies, engineering documents, etc.
