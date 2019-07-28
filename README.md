@@ -27,7 +27,7 @@ In order to do this, we have to specify 3 things:
 -   `patch_size_range` - This is a tuple of minimum and maximum patch sizes that we want to attempt to use for patching. So if we had inputs of size 512x512, using `(256, 256)` as our `patch_size_range` would result in 4 patches saved out for this image.
 
 ```
-from tiling utils import preprocess_into_patches
+from tiling_utils import preprocess_into_patches
 from pathlib import Path
 
 path_in = Path('~/images')
